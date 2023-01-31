@@ -1,0 +1,154 @@
+<!--latihan per 2 IMAGES -->
+<html>
+<head>
+<title>Halaman Latihan 1</title>
+   
+</head>
+<body background="images/wall-2.jpg">
+   <h1> Pet Center - Add Image</h1>
+   <p>Sebuah Gambar Dari Folder Lokal:
+    <img src="menu (1).jpg" width="70" height="105"
+   </p>
+   <p>Sebuah Gambar Dari Sub  Folder:
+    <img src="menu (2).jpg" width="70" height="105"
+   </p>
+   <p>Sebuah Gambar Dari Luar Folder:
+    <img src="menu (3).jpg" width="70" height="105"
+   </p>
+</body>
+</html>
+
+<!--latihan per 2 ALIGN -->
+<html>
+<head>
+<title>Halaman Latihan 1</title>
+</head>
+
+<body>
+   <h1>Pet Center - Align</h1>
+   <p>Sebuah Gambar :
+    <img src="menu (1).jpg" width="70" height="105" align="bottom"/>
+    di Antara Text. Posisi Text Akan di Bawah </p>
+   <p>Sebuah Gambar :
+    <img src="menu (2).jpg" width="70" height="105" align="middle"/>
+    di Antara Text. Posisi Text Akan di Tengah  </p>
+   <p>Sebuah Gambar :
+    <img src="menu (3).jpg" width="70" height="105" align="top"/>
+    di Antara Text. Posisi Text Akan di Atas </p>
+
+    <p>
+        <img src="menu (1).jpg" width="70" height="105"/>
+        Sebuah Gambar di Depan Text </p>
+
+    <p>Sebuah Gambar di Belakang Text
+        <img src="menu (1).jpg" width="70" height="105"/>
+    </p>
+</body>
+
+</html>
+
+<!--latihan per 2 FORMULIR -->
+<html>
+<head>
+    <title>Halaman Latihan 1</title>
+</head>
+<body>
+   <h1> Ini adalah latihan Web Pertama - Formulir</h1>
+   <p>Hasil Percobaan Coding Ini</p>
+    <p>Gambar :
+        <img src="menu (2).jpg" width="70" height="105" align="middle"/>
+        di Tengah  </p>
+
+</body>
+    <form>
+        <fieldset
+        <legend>Formulir</legend>
+        <p>
+            <label>Nama Depan :</label>
+            <input type="text" name="name" placeholder="Nama Depan..." />
+        </p>
+
+        <p>
+            <label>Nama Belakang :</label>
+            <input type="text" name="name" placeholder="Nama Belakang..." />
+        </p>
+
+        <p>
+            <label>Password :</label>
+            <input type="password" name="password" placeholder="Isi Password..." />
+        </p>
+        <fieldset>
+    </form>
+
+    <p><b>Perhatikan!!!</b> Ketika kalian mencoba mengetikan password maka akan muncul berupa bullet,
+    bukan karakter yang sedang Anda ketikan. Karena<i>type pada</i> inputan password tersebut
+    adalah "password"</p>
+    </body>
+
+   <!--latihan per 2 KOTAK DROPDOWN, CHECKBOX DAN RADIO --> 
+<html>
+<head>
+<title>Halaman Latihan 1</title>    
+</head> 
+<body>
+   <h1> Ini adalah latihan Web Pertama - Dropdown, Checxbox dan Radio</h1>
+    <form>
+        <fieldset>
+            <legend>Formulir</legend>
+
+            <!--Select Option-->
+            <p>Menggunakan Dropdown</p>
+            <p>
+                <label>Jenis Kelamin:</label>
+                <select name = "jk">
+                    <option value="lakilaki">Laki-Laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select> 
+            </p>
+
+            <!--Radio Button-->
+            <p>Menggunakan Radio Button</p>
+            <p>Jenis Kelamin</p>
+                <p>><input type="radio" name="jenis_kelamin" value="lakilaki"/>Laki-Laki</p>
+                <p>><input type="radio" name="jenis_kelamin" value="perempuan" checked="checked" />Perempuan</p>
+            
+                 <!--Checkbox-->
+            <p>Menggunakan Checkbox</p>
+            <p>Jenis Kelamin</p>
+                <p>><input type="checkbox" name="jenis_kelamin" value="lakilaki" checked="checked" />Laki-Laki</p>
+                <p>><input type="checkbox" name="jenis_kelamin" value="perempuan" />Perempuan</p>
+    </form>
+</body>
+
+   <!--latihan per 2 MENAMBAHKAN TOMBOL UNTUK MENGIRIM DATA< --> 
+   <html>
+<head>
+<title>Halaman Latihan 1</title>    
+</head> 
+<body>
+    <h1>Menambahkan Tombol Untuk Mengirim Data</h1>
+        <form action="index.html" method="get">
+            <fieldset>
+            <legend>Formulir</legend>
+            <p>
+                <label>Nama Depan: </label>
+                <input type="text" name="name" placeholder="Nama Depan..." />
+            </p>
+
+            <p>
+                <label>Nama Belakang: </label>
+                <input type="text" name="name" placeholder="Belakang..." />
+            </p>
+
+            <p>
+                <label>Password: </label>
+                <input type="password" name="password" placeholder="Isi Password..." />
+            </p>
+
+            <input type="submit" value="SUBMIT">  <input type="reset" value="BATAL">
+        </fieldset>
+    </form>
+
+    <p> Jika Anda Klik Submit Maka Akan Mengirim Inputan Pada Browser</p>
+    <P> Jika Anda Klik Batal Maka Akan Mereset Inputan Pada Browser</p>
+</body>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Halaman Latihan 1</title>
+
+     <!--JENIS PENGATURAN DASAR< --> 
+    <style>
+        body{
+            background-image: url(./images/wall\ \(3\).jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+            background-attachment: fixed;
+            height: 100%;
+        }
+        .text1{
+            text-align: left;
+            font-size: 5.5em;
+            font-family: sans-serif;
+            color: rgb(51, 26, 9);}    
+        .text2 {
+            text-align: left;
+            font-size: 1.5em;
+            font-family: sans-serif;
+            color: rgb(51, 26, 9);}  
+        .box1{
+            text-align: center;
+            width:250px;
+            height: 20px;
+            font-family: sans-serif;
+            color: white;
+            background:rgb(112, 109, 109);} 
+    </style>
+</head>
+<body>
+     <!--PENAMBAHAN TEXT< --> 
+   <h1 class="text1"> Detail Your Basic Skin</h1>
+   <h1 class="text2"> Kenali Jenis Kulit Anda Dari Dini</h1>
+   <div class="box1">Informasi Klien </div>
+
+   <!--PENAMBAHAN FORM KLIEN< --> 
+    <fieldset>
+    <legend></legend>
+    <p><label>Nama : </label>
+    <input type="text" name="name" placeholder="Isi Nama Pelanggan..." /></p>
+
+    <p><label>Nomor Telpon: </label>
+    <input type="text" name="Nomor" placeholder="Isi Nomor Telpon..." /></p>
+
+    <p><label>Email: </label>
+    <input type="email" name="email" placeholder="Isi Email..." /></p>
+    
+    <p><label>Alamat: </label>
+    <input type="text" name="text" placeholder="Isi Alamat..." /></p>
+
+    <input type="submit" value="SUBMIT">  <input type="reset" value="BATAL">
+</fieldset>
+</form>
+
+    <!--PENAMBAHAN TEXT< -->
+    <div class="box1">Informasi Kondisi Kulit </div>
+
+    <!--PENAMBAHAN FORMULIR < --> 
+    <fieldset>
+        <legend></legend>
+        <p><label>Nama : </label>
+        <input type="text" name="name" placeholder="Isi Nama..." /></p>
+    
+        <p><label>Jenis Kulit: </label>
+        <input type="text" name="text" placeholder="Isi Jenis Kulit..." /></p>
+
+    <!--RADIO BUTTON-->
+        <p>Jenis Kelamin</p>
+            <p>><input type="radio" name="jenis_kelamin" value="Jantan"/>Laki-Laki</p>
+            <p>><input type="radio" name="jenis_kelamin" value="Betina" checked="checked" />Perempuan</p>
+    
+    <!--SELECT OPTION-->
+    <p><label>Usia:</label>
+        <select name = "Age">
+            <option value="12-22 Tahun">12-22 Tahun</option>
+            <option value="23-45 Tahun">23-45 Tahun</option>
+            <option value="46-70 Tahun">46-70 Tahun</option>
+        </select> </p>
+
+        <p><label>Riwayat Penyakit : </label>
+        <input type="text" name="text" placeholder="Isi Riwayat Penyakit..." /></p>
+        
+        <p><label>Catatan Perilaku: </label>
+        <input type="text" name="text" placeholder="Isi Catatan Perilaku..." /></p>
+
+        
+         <!--PENAMBAHAN PILIHAN PERAWATAN  < --> 
+
+         <p><label>Layanan Perawatan:</label>
+            <select Pilihan Perawatan = "Pilihan Perawatan">
+                <option value="Facial">Facial</option>
+                <option value="Chemical Peeling">Chemical Peeling</option>
+                <option value="Laser">Laser</option>
+                <option value="Microneedling">Microneedling</option>
+                <option value="Totok Wajah">Totok Wajah</option>
+                <option value="Mesotherapy">Mesotherapy</option>
+            </select> </p>
+    
+            <p><label>Perawatan Lainnya : </label>
+                <input type="text" name="text" placeholder="Isi Perawatan Lainnya..." /></p>
+
+        <input type="submit" value="SUBMIT">  <input type="reset" value="BATAL">
+    </fieldset>
+    </form>
+    
+    <p> Jika Anda Klik Submit Maka Akan Mengirim Inputan Pada Data Server</p>
+    <P> Jika Anda Klik Batal Maka Akan Mereset Inputan Pada Data Server</p>
+
+    <body>
